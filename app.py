@@ -1,7 +1,7 @@
 import streamlist as st
 from groq import Groq
 st.set_page_config("PragyanAI-Content Generator",layout="wide");
-st.title"PragyanAI_Content generator");
+st.title("PragyanAI_Content generator");
 st.image("lord-krishna-playing-flute-with-divine-glow.jpg")
 # Get GROQ API Key
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
