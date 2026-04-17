@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 st.set_page_config("Shravani-Content Generator",layout="wide")
 st.title("Shravani_Content generator");
-st.image("lord-krishna-playing-flute-with-divine-glow.jpg")
+st.image("ai_image.jpg")
 # Get GROQ API Key
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 # Get Product Name and Audience for That Product
